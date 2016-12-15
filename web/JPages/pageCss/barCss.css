@@ -1,0 +1,19 @@
+body{
+    background-color: #2f4f4f;
+    padding: inherit;
+    margin: inherit;
+    border: thin;
+    color: darkgray;
+    font-family: sans-serif, "sans-serif";
+}
+
+.line{
+
+    margin-bottom: -1px;
+    border: thin;
+
+}
+#bar
+{
+    position: absolute;
+}

@@ -1,0 +1,4 @@
+.imagewrap {display:inherit;position:static;}
+.button1 {position:absolute;bottom:0;left:0;}
+.button2 {position:absolute;bottom:0;right:0;}
+.button3 {position:absolute;right:40%;top:20%;width:150px;height: 150px;}

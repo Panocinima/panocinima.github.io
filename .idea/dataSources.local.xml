@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - panocinimaClientDatabase@localhost" uuid="06d99893-2e68-4d48-ba00-9443d4c5f75c">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>panocinimaClientDatabase:</introspection-scope>
+      <resolve-scope>panocinimaClientDatabase:</resolve-scope>
+    </data-source>
+  </component>
+</project>

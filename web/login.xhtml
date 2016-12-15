@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+
+
+
+<div  id="hideLogIn">
+    <h:form>
+        <div  >
+    <h:panelGrid styleClass="identifyEmailLabel" columns="6">
+        <h:outputLabel  value="Email or     Phone"/>
+        <h:outputLabel  styleClass="identifyPasswordLabel" value="  Password"/>
+
+    </h:panelGrid>
+           <h:panelGrid columns="3"  styleClass="passAndEmailGrid">
+
+            <h:inputText styleClass="identifyEmailLogin" value="#{login.emailAndPhone}"  rendered="true" requiredMessage="The text field
+            must not be left empty"/>
+               <h:inputText styleClass="identifyPasswordLogin" value="#{login.secretPassword}"  rendered="true" requiredMessage="The text field
+            must not be left empty"/>
+               <h:commandButton styleClass="commandLogin" value="Sign in" action="#{login.login}"/>
+               <h6 id="alarm"></h6>
+               <h:messages   for="alarm" style="color: #ff0500"/>
+           </h:panelGrid>
+
+
+        <h:panelGrid columns="2" styleClass="forgetPassword" >
+
+            <h:commandButton styleClass="forgetPassword" value="forget account" action="forgetPassword"/>
+        </h:panelGrid>
+
+
+
+    </div>
+    </h:form>
+    </div>
+
+</f:view>
+</html>

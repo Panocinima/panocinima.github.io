@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+
+<head>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="JPages/pageCss/cenemaCss.css"/>
+</head>
+<div>
+    <script type="javascript" src="JPages/jquery/jquery-3.1.1.min.js"/>
+    <script type="javascript">
+
+    </script>
+</div>
+
+
+
+
+<f:view>
+    <div id="hideTile">
+
+
+
+    <h3 class="signUp">Sign Up</h3 >
+
+</div>
+
+<body>
+
+
+<div id="hideSignUp" class="backGround">
+    <hr class="line"/>
+    <div class="backGround_Form">
+
+
+    <h:form   >
+
+
+            <h:panelGrid columns="2">
+            <h:inputText id="userName"  styleClass="identifyFirstName"  value="#{register.firstName}" required="true" requiredMessage="The user name field must not be empty"  a:placeholder="First Name"/>
+            <h:inputText  id ="userSurname" styleClass="identifySureName" value="#{register.surname}"  required="true" requiredMessage="The text surname field  must not be empty" a:placeholder="Surname" />
+
+            </h:panelGrid>
+
+        <h:panelGrid columns="1">
+        <h:inputText  styleClass="identifyEmail" title="Email or Phone" value="#{register.emailOrMobileNumber}"  required="true" requiredMessage="Email or phone must not be empty" a:placeholder="Email Or Mobile Number"/>
+
+        <h:inputSecret  id="passwordLenght" size="20" styleClass="identifyPassword" value="#{register.secretID}"  required="true" requiredMessage="The password field must not be empty" redisplay="true"  a:placeholder="Password">
+            <f:validateLength for="passwordLenght" maximum="10" minimum="5"></f:validateLength>
+        </h:inputSecret>
+
+        <h:inputSecret id="reenterPasswordLenght" size="20"  styleClass="identifyReenterPassword" value="#{register.reenterSecretID}" required="true" requiredMessage="The Reenter Password  field must not be empty"  a:placeholder="Reenter Password">
+            <f:validateLength minimum="5" maximum="10" />
+
+                </h:inputSecret>
+        <ui:include src="selectedItems.xhtml"/>
+
+
+
+
+
+    </h:panelGrid>
+
+
+
+
+
+
+
+
+        <h:commandButton   id="greetings" styleClass="command"  value="Sign Up" action="#{register.insert}">
+
+            <h:outputLink  value="clientAccount.xhtml"/>
+
+            <f:ajax execute="#greetings" render="#ajaxMessage"/>
+        </h:commandButton>
+
+        <h:messages styleClass="warning" style="color: #ff0500"/>
+
+    </h:form>
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+<hr class="line_1"/>
+<div class="footer">
+
+
+</div>
+</body>
+
+
+</f:view>
+
+</html>

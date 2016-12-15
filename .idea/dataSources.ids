@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - panocinimaClientDatabase@localhost" uuid="06d99893-2e68-4d48-ba00-9443d4c5f75c">
+    <database-info product="MySQL" version="5.7.15-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="panocinimaclientdatabase">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="2qewcsda"/>
+      <schema id="3" name="34wer"/>
+      <schema id="4" name="50n_it"/>
+      <schema id="5" name="abnormal"/>
+      <schema id="6" name="akunatin"/>
+      <schema id="7" name="anunaki"/>
+      <schema id="8" name="asd"/>
+      <schema id="9" name="asder"/>
+      <schema id="10" name="asfd"/>
+      <schema id="11" name="ashant"/>
+      <schema id="12" name="b"/>
+      <schema id="13" name="baby"/>
+      <schema id="14" name="back"/>
+      <schema id="15" name="banga"/>
+      <schema id="16" name="bay"/>
+      <schema id="17" name="bonju"/>
+      <schema id="18" name="book_shop_online"/>
+      <schema id="19" name="boos"/>
+      <schema id="20" name="borderland"/>
+      <schema id="21" name="boy"/>
+      <schema id="22" name="boys"/>
+      <schema id="23" name="brothers"/>
+      <schema id="24" name="c"/>
+      <schema id="25" name="cars"/>
+      <schema id="26" name="crake"/>
+      <schema id="27" name="d"/>
+      <schema id="28" name="dade"/>
+      <schema id="29" name="daer"/>
+      <schema id="30" name="danatere"/>
+      <schema id="31" name="dante"/>
+      <schema id="32" name="dante2"/>
+      <schema id="33" name="dare"/>
+      <schema id="34" name="das"/>
+      <schema id="35" name="dasd"/>
+      <schema id="36" name="dat"/>
+      <schema id="37" name="data"/>
+      <schema id="38" name="date"/>
+      <schema id="39" name="dated"/>
+      <schema id="40" name="datega"/>
+      <schema id="41" name="dater"/>
+      <schema id="42" name="datewer"/>
+      <schema id="43" name="db"/>
+      <schema id="44" name="dbuser"/>
+      <schema id="45" name="deal_a_book"/>
+      <schema id="46" name="deal_book"/>
+      <schema id="47" name="df"/>
+      <schema id="48" name="dfasdf"/>
+      <schema id="49" name="dfgsdfbw"/>
+      <schema id="50" name="donebase"/>
+      <schema id="51" name="donebase1"/>
+      <schema id="52" name="donebase23"/>
+      <schema id="53" name="donebase40"/>
+      <schema id="54" name="donebase43"/>
+      <schema id="55" name="donething"/>
+      <schema id="56" name="done_thing"/>
+      <schema id="57" name="dope"/>
+      <schema id="58" name="dose"/>
+      <schema id="59" name="dowers"/>
+      <schema id="60" name="ds"/>
+      <schema id="61" name="dsd"/>
+      <schema id="62" name="dssfs"/>
+      <schema id="63" name="earth"/>
+      <schema id="64" name="ebookshop"/>
+      <schema id="65" name="ed"/>
+      <schema id="66" name="employer"/>
+      <schema id="67" name="f"/>
+      <schema id="68" name="fada"/>
+      <schema id="69" name="fat"/>
+      <schema id="70" name="fate"/>
+      <schema id="71" name="fathatan"/>
+      <schema id="72" name="fatheas"/>
+      <schema id="73" name="father"/>
+      <schema id="74" name="fathers"/>
+      <schema id="75" name="fg"/>
+      <schema id="76" name="fgds"/>
+      <schema id="77" name="fire"/>
+      <schema id="78" name="flese"/>
+      <schema id="79" name="gamer"/>
+      <schema id="80" name="ganster"/>
+      <schema id="81" name="gate"/>
+      <schema id="82" name="gateer"/>
+      <schema id="83" name="gatq"/>
+      <schema id="84" name="ghana"/>
+      <schema id="85" name="ginja"/>
+      <schema id="86" name="god"/>
+      <schema id="87" name="gsaf"/>
+      <schema id="88" name="gun"/>
+      <schema id="89" name="gundown"/>
+      <schema id="90" name="hart"/>
+      <schema id="91" name="hoe"/>
+      <schema id="92" name="hunda"/>
+      <schema id="93" name="information_schema"/>
+      <schema id="94" name="ino"/>
+      <schema id="95" name="javahelps"/>
+      <schema id="96" name="mama"/>
+      <schema id="97" name="mapot"/>
+      <schema id="98" name="metropolis"/>
+      <schema id="99" name="mothers"/>
+      <schema id="100" name="mysql"/>
+      <schema id="101" name="panocinimaclientaccount"/>
+      <schema id="102" name="performance_schema"/>
+      <schema id="103" name="qwert"/>
+      <schema id="104" name="r"/>
+      <schema id="105" name="rt"/>
+      <schema id="106" name="sad"/>
+      <schema id="107" name="sade"/>
+      <schema id="108" name="sader"/>
+      <schema id="109" name="sadsz"/>
+      <schema id="110" name="sd"/>
+      <schema id="111" name="sdad"/>
+      <schema id="112" name="sdetwr"/>
+      <schema id="113" name="sds"/>
+      <schema id="114" name="sdssde"/>
+      <schema id="115" name="selder"/>
+      <schema id="116" name="seth"/>
+      <schema id="117" name="solder"/>
+      <schema id="118" name="student"/>
+      <schema id="119" name="student6"/>
+      <schema id="120" name="studento"/>
+      <schema id="121" name="students"/>
+      <schema id="122" name="studentser"/>
+      <schema id="123" name="sweden"/>
+      <schema id="124" name="sys"/>
+      <schema id="125" name="szvfasf"/>
+      <schema id="126" name="the"/>
+      <schema id="127" name="titan"/>
+      <schema id="128" name="tith"/>
+      <schema id="129" name="v"/>
+      <schema id="130" name="vg"/>
+      <schema id="131" name="vi"/>
+      <schema id="132" name="westers"/>
+      <schema id="133" name="westworld"/>
+      <schema id="134" name="world"/>
+      <schema id="135" name="xc"/>
+      <schema id="136" name="yamaha"/>
+      <schema id="137" name="z"/>
+      <table id="138" parent="1" name="clientaccount"/>
+      <table id="139" parent="1" name="users"/>
+      <table id="140" parent="1" name="clientaccountdatabase"/>
+      <column id="141" parent="138" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="142" parent="138" name="FirstName">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="143" parent="138" name="Surname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="144" parent="138" name="EmailAndPhone">
+        <mandatory>1</mandatory>
+        <data-type>varchar(99)|0</data-type>
+      </column>
+      <column id="145" parent="138" name="SecretPassword">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="146" parent="138" name="ReenterSecretPassword">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="147" parent="138" name="DateOfBirth">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="148" parent="138" name="Gender">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <key id="149" parent="138" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="150" parent="139" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="151" parent="139" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="152" parent="139" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="153" parent="139" name="fullname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="154" parent="139" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <key id="155" parent="139" name="PRIMARY">
+        <columns>user_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="156" parent="140" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="157" parent="140" name="FirstName">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="158" parent="140" name="Surname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="159" parent="140" name="EmailAndPhone">
+        <mandatory>1</mandatory>
+        <data-type>varchar(99)|0</data-type>
+      </column>
+      <column id="160" parent="140" name="SecretPassword">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="161" parent="140" name="ReenterSecretPassword">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="162" parent="140" name="DateOfBirth">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <column id="163" parent="140" name="Gender">
+        <mandatory>1</mandatory>
+        <data-type>varchar(88)|0</data-type>
+      </column>
+      <key id="164" parent="140" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

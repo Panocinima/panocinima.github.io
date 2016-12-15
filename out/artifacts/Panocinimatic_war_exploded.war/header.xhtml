@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+
+
+<head>
+
+
+    <link  rel="stylesheet" type="text/css"  href="JPages/pageCss/cenemaCss.css"/>
+    <link  rel="stylesheet" type="text/css" href="JPages/pageCss/barCss.css"/>
+    <script type="javascript" src="JPages/jquery/jquery-3.1.1.min.js"></script>
+
+
+
+</head>
+
+
+<body>
+
+
+
+<f:view>
+
+  <ui:include src="bar.xhtml"/>
+
+    <hr class="line_1"/>
+
+    <div class="signIn">
+        <ui:include src="login.xhtml"/>
+
+    </div>
+    <div id="hideAndshowLater">
+        <ui:include  src="signUp.xhtml"/>
+        <ui:include src="socialActivitiesAndMore.xhtml"/>
+    </div>
+
+    <ui:include src="movies.xhtml"/>
+    <ui:include src="footer.xhtml"/>
+</f:view>
+</body>
+</html>

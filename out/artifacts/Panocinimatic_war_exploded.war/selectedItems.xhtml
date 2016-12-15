@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+
+<f:view>
+
+    <h:form>
+        <h4 class="birth">Date Of Birth</h4>
+<h:panelGrid columns="6">
+
+    <h:selectOneMenu styleClass="date"    value="#{register.day}" >
+        <f:selectItem  itemLabel="Day"    noSelectionOption="true"/>
+        <c:forEach begin="1" var="count" end="31" >
+
+
+            <f:selectItem    itemValue="#{count}" />
+
+
+
+        </c:forEach>
+
+
+    </h:selectOneMenu>
+
+    <h:selectOneMenu styleClass="date" value="#{register.month}">
+
+
+        <f:selectItem itemLabel="Month"  noSelectionOption="true"/>
+        <c:forEach begin="1" var="count" end="12" >
+
+
+                <f:selectItem itemValue="#{count}"  />
+
+        </c:forEach>
+
+
+
+    </h:selectOneMenu>
+
+
+
+
+
+    <h:selectOneMenu styleClass="date"  value="#{register.year}">
+        #{dayMonthYear.setYear()}
+        <f:selectItem itemLabel="Year" noSelectionOption="true"/>
+        <c:forEach begin="0"   var="count1" end="90" >
+
+            <f:selectItem itemValue="#{dayMonthYear.year.get(count1)}" />
+
+
+        </c:forEach>
+
+
+    </h:selectOneMenu>
+     <h:link  styleClass="question" hreflang="Why.html"  onclick="alert('Providing your date of birth helps make sure that' +
+      ' you get the right Facebook experience for your age. If you want to change who sees this, go to the About section ' +
+       'of your Profile. For more details, please visit our Data Policy.' )" >Why do i need to provide my birth date?</h:link>
+
+    <ui:include src="trailers.xhtml"/>
+
+</h:panelGrid>
+        <div>
+
+        <h:panelGrid columns="4" styleClass="checkBox_1" >
+
+
+            <h:selectOneRadio  value="#{register.female}" required="true" requiredMessage="The gender field must
+             not be left empty" onselect="#{register.isFemale}" >
+
+
+                <f:selectItem id="female" itemLabel="Female"  itemValue="Female" var="c" itemDisabled="#{register.getIsFemale()}"/>
+            </h:selectOneRadio>
+            <h:selectOneRadio value="#{register.male}" >
+                <f:selectItem  id="male" itemLabel="Male" itemValue="Male"   var="f"  itemDisabled="#{register.getIsFemale()}"  />
+            </h:selectOneRadio>
+
+
+
+
+
+
+
+
+
+        </h:panelGrid>
+
+    </div>
+   <h5 class="agreement"> By clicking Sign Up, you agree to our Terms and that you have read our <h:link hreflang="dataPolicy.xhtml"> Data Policy</h:link>, including our Cookie Use.</h5>
+
+</h:form>
+</f:view>
+
+
+</html>

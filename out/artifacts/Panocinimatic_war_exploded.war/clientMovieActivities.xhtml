@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+<f:view>
+    <h:form>
+        <div style="background-color: #080808;margin-left: 170px;margin-bottom:-10px; margin-top: -5px ">
+
+
+            <c:forEach begin="0" end="26"  var="k">
+                <h:panelGroup>
+
+
+
+
+
+
+
+                    <h:commandButton id="clientClickOntheMovies" style="width: 130px; height: 152px;padding-right: 1px;border: thin;background-color: #070920 ;" image="JPages/movieBox/movieBox_#{k}.jpg" />
+
+                </h:panelGroup>
+            </c:forEach>
+        </div>
+    </h:form>
+
+</f:view>
+</html>

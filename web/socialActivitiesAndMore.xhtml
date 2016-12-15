@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<head>
+    <link rel="stylesheet" href="JPages/pageCss/cenemaCss.css"/>
+    <title>Panocinima Home</title>
+
+</head>
+
+
+
+<script type="text/javascript"  src="JPages/jquery/jquery-3.1.1.min.js"></script>
+<h:outputScript type="text/javascript">
+
+    $(document).ready(function () {
+        $("#activity_2").hide();
+        $("#activity_3").hide();
+        $("#activity_1").hide();
+        $("backImage").hide();
+
+        $("#player").hide();
+        $("backImage").hide();
+
+
+        $("#watchMore").click(function () {
+            $("backImage").hide();
+            $("#activity_1").slideToggle();
+            $("#activity_2").hide();
+            $("#activity_3").hide();
+            $("#hideSignUp").slideToggle();
+            $("#hideLogIn").slideToggle();
+            $("#hideTile").slideToggle();
+            $("body").css("backgroundColor","black");
+            $(".forgetPassword").css("backgroundColor","black ");
+        })
+
+        $("#play").click(function () {
+            $("backImage").hide();
+            $("#player").slideToggle();
+            $("#use").slideToggle();
+            $("#videos").slideToggle();
+
+
+        })
+
+
+        $("#social").click(function () {
+            $("#activity_2").slideToggle();
+            $("#hideSignUp").slideToggle();
+            $("#hideLogIn").slideToggle();
+            $("#hideTile").slideToggle();
+            $("body").css("backgroundColor","black ");
+            $(".forgetPassword").css("backgroundColor","black ");
+
+        })
+
+
+
+        $("#share").click(function () {
+            $("#activity_3").slideToggle();
+            $("#hideSignUp").slideToggle();
+            $("#hideLogIn").slideToggle();
+            $("#hideTile").slideToggle();
+            $("body").css("backgroundColor","black ");
+            $(".forgetPassword").css("backgroundColor","black ");
+
+        })
+
+
+    })
+
+
+
+
+</h:outputScript>
+
+
+<f:view>
+      <div>
+
+
+
+
+          <div id="activity_1" class="choices">
+            <div class="joinFree">
+                <h:form>
+
+
+                    <h:panelGrid columns="2" style="position: absolute;top: 50px" >
+                        <h3 class="joinFreeLabel">
+                            Watch TV shows and movies anytime, anywhere — personalized for you.
+                        </h3>
+                        <h:commandButton  action="header.xhtml" style="background-color: red;border:thin; color: white; width: 150px; font-size:large; margin-left:30px;
+         height: 50px; border-radius: 0.20em" styleClass="joinForFreeButton" value="Join For Free" />
+                    </h:panelGrid></h:form>
+            </div>
+            <h:panelGrid >
+
+                <div>
+                    <h3 style="text-indent: 200px"> Watch on your TV</h3>
+                    <img src="JPages/img/slider1-ico.png" style="width: 130px; inherit:130px; margin-left: 220px" alt=""/>
+                    <ol style="text-indent: 100px ">
+                        Smart TVs, PlayStation,Xbox, Chromecast,
+                    </ol>
+                    <ol style="text-indent: 100px ">
+                        Apple TV, Blu-ray players
+                        On the go anywhere
+                    </ol>
+                    <div class="watch_on_mobile">
+                        <img src="JPages/img/flat.png" style="width: 130px; margin-left: 220px" alt=""/>
+                        <div class="ipad_iphone_title">
+
+
+                        <ol>
+                            iPhone, iPad, Android phones and tablets,
+                        </ol>
+                        <ol>
+                            Windows phones and tablets.
+                        </ol>
+                        <ol>
+                            Use any computer
+                        Watch right on panocinima.com.
+                    </ol>
+                        </div>
+                    </div>
+
+                </div>
+            </h:panelGrid>
+
+        </div>
+
+
+
+    <div>
+
+
+
+
+
+        <div id="activity_2" class="choices">
+            <div class="joinFree">
+                <h:form>
+
+
+                    <h:panelGrid columns="2" style="position: absolute;top: 50px" >
+                        <h3 class="joinFreeLabel">
+                            Watch TV shows and movies anytime, anywhere — personalized for you.
+                        </h3>
+                        <h:commandButton  action="signUp.xhtml" style="background-color: red;border:thin; color: white; width: 250px; font-size:large; margin-left:30px;
+         height: 50px; border-radius: 0.20em" styleClass="joinForFreeButton" value="Join The Social Movement" />
+                    </h:panelGrid></h:form>
+            </div>
+            <h:panelGrid>
+
+                <div>
+                    <h3 style="text-indent: 220px">Be social-holic</h3>
+                    <img src="JPages/img/social_community.png" style="width: 130px;  margin-left: 220px" alt=""/>
+                    <ol style="text-indent: 450px ; margin-top: -120px ">
+                        We have a in house content development team that stays ahead of trends and consistently delivers
+                    </ol>
+                    <ol style="text-indent: 450px ">
+                        content that is filling the need online for original, entertaining, and addicting content.
+                    </ol>
+
+
+                </div>
+            </h:panelGrid>
+
+        </div>
+
+    </div>
+
+
+          <div id="activity_3" class="choices">
+              <div class="joinFree">
+                  <h:form>
+
+
+                      <h:panelGrid columns="2" style="position: absolute;top: 50px" >
+                          <h3 class="joinFreeLabel">
+                              Watch TV shows and movies anytime, anywhere — personalized for you.
+                          </h3>
+                          <h:commandButton  action="signUp.xhtml" style="background-color: red;border:thin; color: white; width: 250px; font-size:large; margin-left:30px;
+         height: 50px; border-radius: 0.20em" styleClass="joinForFreeButton" value="Join The Share Movement" />
+                      </h:panelGrid></h:form>
+              </div>
+              <h:panelGrid>
+
+                  <div>
+                      <h3 style="text-indent: 200px">Share more</h3>
+                      <img src="JPages/img/social_community.png" style="width: 130px;  margin-left: 220px" alt=""/>
+                      <ol style="text-indent: 450px ;margin-top: -120px ">
+                          Share more helps you share to Facebook, Twitter, WhatsApp, SMS,
+                      </ol>
+                      <ol style="text-indent: 450px ">
+                          email and nearly any social media or cloud service.
+                      </ol>
+
+                  </div>
+              </h:panelGrid>
+
+          </div>
+          <div class="tileBackGroundColor">
+
+
+
+          </div>
+      </div>
+
+
+
+</f:view>
+
+</html>

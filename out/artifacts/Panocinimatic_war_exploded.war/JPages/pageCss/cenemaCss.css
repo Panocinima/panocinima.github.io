@@ -1,0 +1,428 @@
+
+body{
+    background-color: #010712;
+    padding: inherit;
+    margin: inherit;
+    border: thin;
+    color: darkgray;
+    font-family: sans-serif, "sans-serif";
+
+
+}
+
+.signIn{
+    padding-bottom:-50px;
+    padding-top: 100px;
+    border: thin;
+    border-radius: 0.20em;
+
+    margin-left: 945px;
+}
+.logo{
+    color: #edf0f5;
+    background-color: darkslategray;
+    font-size: 0.80em;
+    text-indent: 12px;
+    margin-bottom: 300px;
+
+    border: thin;
+    border-radius: 0.20em;
+    width: 20%;
+    height: 20%;
+    font-style: normal;
+
+}
+.backGround{
+    background-color: #0f0f0f;
+    padding-top: -80px;
+    border: thin;
+    border-bottom-color: #ff0500;
+    padding-bottom: 1px;
+
+
+
+}
+.backGround_Form{
+    background-color: #0f0f0f;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    border-top-color:#ff0500 ;
+    margin-left: 10px;
+    border: thin;
+
+
+}
+.watchAnyWhere{
+width: 80px ;
+    height:80px;
+    margin-left:229px;
+    margin-top: 100px;
+}
+
+.watchAnyWhereTitle{
+    margin-top: 15px ;
+    text-indent: 200px;
+
+
+}
+
+.watch_on_mobile{
+    margin-left: 400px;
+    margin-top: -200px;
+}
+.ipad_iphone_title{
+    margin-left: 130px;
+}
+.social_linked{
+    width: 80px ;
+    height:80px;
+    margin-left:600px;
+    margin-top: -110px;
+}
+.social_linkedTitle{
+    margin-top: 10px ;
+    text-indent: 580px;
+
+}
+.social_linked:hover{
+    background-color: #ff0500;
+    border-radius: 5px;
+}
+
+.share_linked{
+    width: 80px ;
+    height:80px;
+    margin-left:969px;
+    margin-top: -110px;
+}
+.share_linkedTitle{
+    margin-top: 10px ;
+    margin-bottom: 5px;
+    text-indent: 952px;
+
+}
+.share_linked:hover{
+    background-color: #ff0500;
+    border-radius: 5px;
+}
+
+.sharing{
+    width: 400px ;
+    height:400px;
+    margin-left:545px;
+    margin-top: 100px;
+    margin-bottom:  -300px;
+}
+.shareTitle{
+    top: -40px;
+    text-indent: 200px;
+
+}
+.sharingCommunity{
+    margin-top: 100px ;
+    text-indent: 400px
+
+
+}
+.social_linksTitle{
+    margin-top: 10px ;
+    text-indent: 525px;
+
+
+}
+
+.sharing :hover{
+    background-color: #ff0500;
+    border-radius: 2px;
+
+
+
+
+}
+
+.social_links{
+    width: 430px ;
+    height:380px;
+    margin-left:550px;
+    margin-top: 100px;
+    margin-bottom: -300px;
+}
+.watchAnyWhere :hover{
+     background-color: #ff0500;
+     border-radius: 50px;
+
+
+
+
+}
+
+.social_links :hover{
+    background-color: #ff0500;
+    border-radius: 2px;
+
+
+
+
+}
+.joinFree{
+    position: relative;
+    padding-top: 160px;
+    background-color: #1c1d1f;
+}
+
+
+
+.joinFreeLabel{
+    text-indent: 250px;
+
+}
+
+
+.choices{
+    background-color: #080808;
+    margin-top: 0px;
+    height: 500px;
+}
+
+.tile{
+
+width: 1350px;
+    margin-top: 3px;
+
+}
+.tileBackGroundColor{
+    background-color: red;
+    padding-bottom: 1px;
+
+}
+
+.trailer{
+
+    margin-left: 170px;
+    margin-bottom: 50px;
+    border: thin;
+
+
+
+
+
+}
+.trailerVideo{
+    width: 600px;
+    margin-top: -58px;
+    border: groove;
+
+
+}
+.line{
+
+    margin-bottom: 34px;
+    border: thin;
+    padding-top:1px;
+    background-color: #2f2f2f;
+
+}
+
+.line_1{
+    margin-top: inherit;
+    margin-bottom: -1px;
+    border: thin;
+
+}
+.identifySureName{
+    font-size: 1.20em;
+    height:35px;
+    width: 325px;
+    background: aliceblue;
+    border: thin;
+    border-radius: 0.20em;
+
+
+
+}
+.identifyFirstName{
+    font-size: 1.20em;
+    height:35px;
+    width: 325px;
+    border: thin;
+    border-radius: 0.20em;
+    margin-right: 13px;
+    background-color: aliceblue;
+
+
+}
+
+.identifyEmail{
+    font-size: 1.20em;
+    height:35px;
+    width: 669px;
+    border: thin;
+    border-radius: 0.20em;
+    margin-right: 13px;
+    background-color: aliceblue;
+
+
+}
+
+
+.identifyPassword{
+    font-size: 1.20em;
+    height:35px;
+    width: 669px;
+    margin-right: 13px;
+    background-color: aliceblue;
+    border: thin;
+    border-radius: 0.20em;
+
+
+}
+
+.identifyReenterPassword{
+    font-size: 1.20em;
+    height:35px;
+    width: 669px;
+    margin-right: 13px;
+    background-color: aliceblue;
+    border: thin;
+    border-radius: 0.20em;
+
+}
+.birth{
+    margin-bottom: -155px;
+    color: whitesmoke;
+    text-indent: 5px;
+    border: thin;
+    border-radius: 0.20em;
+}
+.date{
+    font-size: 1.0em;
+    font-family: sans-serif,"sans-serif";
+    height:35px;
+    width: 70px;
+    margin-top: -600px;
+    background-color: aliceblue;
+    border: thin;
+    border-radius: 0.20em;
+}
+
+.checkGender{
+font-size: 1.30em;
+    position: fixed;
+    color: whitesmoke;
+    margin-top: -100px;
+    border: thin;
+    border-radius: 0.20em;
+}
+.checkBox_1{
+    margin-top:-80px;
+    margin-top: -130px;
+    color: whitesmoke;
+    border-radius: 0.20em;
+}
+.checkBox_2{
+    margin-bottom:800px;
+    border: thin;
+    color: whitesmoke;
+    border-radius: 0.20em;
+}
+.warning{
+text-indent: -6px;
+    margin-top: -80px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    color: #ff0500;
+    border: thin;
+    border-radius: 0.20em;
+}
+
+.question{
+    margin-left: 20px;
+    font-size: 17px;
+    color: whitesmoke;
+    border: thin;
+    border-radius: 0.20em;
+}
+
+.agreement{
+    margin-left: 10px;
+    color: whitesmoke;
+    border: thin;
+    border-radius: 0.20em;
+}
+.command{
+    font-size: 1em;
+    width: 200px;
+    height: 40px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    background-color: #4ab966;
+    border: thin;
+    border-radius: 0.20em;
+}
+.signUp{
+    margin-left: 10px;
+    color: darkgray;
+    margin-bottom: -5px;
+    margin-top: 20px;
+    border: thin;
+    border-radius: 0.20em;
+}
+.forgetPassword{
+    width: 130px;
+    border: none;
+    margin-top: -20px;
+    margin-left: -12px;
+    background-color: #010712;
+    color: whitesmoke;
+    border-radius: 0.20em;
+
+
+}
+
+.identifyEmailLabel{
+    margin-left: 2px;
+    margin-bottom: -2px;
+    width: 300px;
+    font-size:1em;
+    border: thin;
+    border-radius: 0.20em;
+}
+
+.identifyPasswordLabel{
+    margin-left: -132px;
+    font-size:1em;
+    border: thin;
+    border-radius: 0.20em;
+}
+.commandLogin{
+    background-color: #010a1d;
+    border-radius: 0.10em;
+    font-size: small;
+    color: whitesmoke;
+    height: 23px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+
+}
+.identifyEmailLogin{
+    margin-right: 10px;
+    height: 20px;
+    border: thin;
+    border-radius: 0.20em;
+}
+
+.identifyPasswordLogin{
+    border: thin;
+    height: 20px;
+    border-radius: 0.20em;
+}
+.footer{
+    padding-bottom:-50px;
+    padding-top: 60px;
+    background-color:black;
+    border: thin;
+    border-radius: 0.20em;
+    display: block;
+
+
+}

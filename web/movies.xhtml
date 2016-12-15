@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+<head>
+<script type="text/javascript"  src="JPages/jquery/jquery-3.1.1.min.js"></script>
+<script type="javascript">
+
+
+
+            $(document).ready(function () {
+
+
+
+
+
+            })
+            </script>
+</head>
+
+<f:view>
+    <h:form>
+        <div style="background-color: #080808;margin-right: -1px;margin-bottom:-10px; margin-top: -60px ">
+
+
+    <c:forEach begin="0" end="26"  var="k">
+        <h:panelGroup>
+
+
+
+
+
+
+
+                <h:commandButton id="clientClickOntheMovies"   style="width: 150px; height: 172px;border: thin;background-color: #ff0500 ;"  image="JPages/movieBox/movieBox_#{k}.jpg" />
+
+   </h:panelGroup>
+    </c:forEach>
+            <hr/>
+        </div>
+    </h:form>
+        </f:view>
+        </html>
